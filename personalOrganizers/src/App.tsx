@@ -1,12 +1,12 @@
 import { ToastContainer } from 'react-toastify';
-// import { AppRoutes } from './routes/routes';
+import { AppRoutes } from './routes/routes';
 import { GlobalStyles } from './styles/global';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => (
   <>
     <GlobalStyles />
-    {/* <AppRoutes />; */}
+    <AppRoutes />
     <ToastContainer
       position='top-right'
       autoClose={5000}

@@ -5,15 +5,16 @@ import { Routes, Route } from 'react-router-dom';
 // import RegisterPage from '../pages/RegisterPage';
 // import ShopPage from '../pages/ShopPage';
 // import { CartProvider } from '../providers/CartContext/CartContext';
+import { LandingPage } from '../pages/LandingPage';
 
 export const AppRoutes = () => (
   <Routes>
     <Route path='/' element={<LandingPage />} />
-    <Route path='/' element={<LoginPage />} />
+    {/* <Route path='/login' element={<LoginPage />} />
     <Route path='/register' element={<RegisterPage />} />
-    <Route path='*' element={<PageNotFound />} />
+    <Route path='*' element={<PageNotFound />} /> */}
 
-    <Route element={<ProtectedRoutes />}>
+    {/* <Route element={<ProtectedRoutes />}>
       <Route
         path='/shop'
         element={
@@ -22,6 +23,6 @@ export const AppRoutes = () => (
           </CartProvider>
         }
       />
-    </Route>
+    </Route> */}
   </Routes>
 );
