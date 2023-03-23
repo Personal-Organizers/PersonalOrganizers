@@ -55,12 +55,13 @@ export const StyledParagraph = styled.p<IStyledParagraphProps>`
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.8;
+  z-index: 1;
   text-align: ${({ textAlign }) => textAlign};
   ${({ fontColor, theme }) => {
     switch (fontColor) {
       case 'gray':
         return css`
-          color: ${theme.colors.gray300};
+          color: ${theme.colors.blue300};
         `;
       case 'red':
         return css`

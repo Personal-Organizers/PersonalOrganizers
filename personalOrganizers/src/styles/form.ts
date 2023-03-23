@@ -26,13 +26,13 @@ export const StyledTextField = styled(TextField)`
   }
   label {
     &.Mui-focused {
-      color: ${({ theme }) => theme.colors.primary};
+      color: ${({ theme }) => theme.colors.black};
     }
   }
   .Mui-focused {
     fieldset {
-      border-color: ${({ theme }) => theme.colors.primary}!important;
-      outline-color: ${({ theme }) => theme.colors.primary}!important;
+      border-color: ${({ theme }) => theme.colors.yellow150}!important;
+      outline-color: ${({ theme }) => theme.colors.yellow150}!important;
     }
   }
 `;
