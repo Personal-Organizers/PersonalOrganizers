@@ -36,20 +36,3 @@ export const StyledLoginPage = styled.main`
         }
     }
 `
-
-export const StyledLoginPageContainer = styled.div`
-    height: 90%;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    margin: 40px;
-   
-    .loginPageBackground {
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-    }
-`

@@ -39,24 +39,6 @@ export const StyledLandingPage = styled.main`
     }
 `
 
-export const StyledLandingPageContainer = styled.section`
-    height: 90%;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    margin: 40px;
-   
-
-    .landingPageBackground {
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-    }
-`
-
 export const StyledDescription = styled.div`
     display: flex;
     flex-direction: column;
