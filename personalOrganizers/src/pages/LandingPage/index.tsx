@@ -28,7 +28,12 @@ export const LandingPage = () => {
             </StyledBtnLogin>
             <div className="ladingPageRegisterBtn">
               <p className="landingPageDescription">Ainda não tem uma conta?</p>
-              <StyledBtnCadastro>Cadastre-se</StyledBtnCadastro>
+              <StyledBtnCadastro
+                className="ladingPageBtnRegister"
+                onClick={() => navigate("/register")}
+              >
+                Cadastre-se
+              </StyledBtnCadastro>
             </div>
           </div>
         </StyledDescription>
